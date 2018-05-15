@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.mickeymouse.caxi.activity.HomeScreen">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/homescreen"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background"
+            app:titleTextColor="@color/text_moto_color"
+            android:titleTextColor="@color/text_moto_color"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:targetApi="m" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_home_screen" />
+
+    <FrameLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+</FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bookride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="25dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:backgroundTint="@color/cast_expanded_controller_text_color"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/home_container"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/car"
+        app:useCompatPadding="true"
+        tools:ignore="VectorDrawableCompat" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/shareride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:backgroundTint="@color/cast_expanded_controller_text_color"
+        app:fabSize="normal"
+        app:layout_anchor="@id/bookride"
+        app:layout_anchorGravity="top|end"
+        app:srcCompat="@drawable/shareride"
+        app:useCompatPadding="true"
+        tools:ignore="VectorDrawableCompat" />
+
+</android.support.design.widget.CoordinatorLayout>

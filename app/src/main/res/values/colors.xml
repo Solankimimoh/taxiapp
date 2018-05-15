@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSplashPrimaryDark">#f3c316</color>
+    <color name="background">#ffd94f</color>
+    <color name="text_moto_color">#383838</color>
+    <color name="AppBarText">#383838</color>
+    <color name="accent_material_light">#f3be00</color>
+    <color name="colorSplashPrimaryDark2">#e2b30c</color>
+    <color name="home_screen_bg">#383838</color>
+</resources>

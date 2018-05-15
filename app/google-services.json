@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "11610692722",
+    "firebase_url": "https://caxi-a0e3d.firebaseio.com",
+    "project_id": "caxi-a0e3d",
+    "storage_bucket": "caxi-a0e3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11610692722:android:2bf5128f1bef3fa2",
+        "android_client_info": {
+          "package_name": "com.example.mickeymouse.caxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11610692722-iservomti7tu1t9v6jud3m278uhr5jpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mickeymouse.caxi",
+            "certificate_hash": "fc17d0f08a4c1faa9f538ffc511810f2f5c286ba"
+          }
+        },
+        {
+          "client_id": "11610692722-90e0ji7s2mb6436qt93ge3o2c7v3bhnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mickeymouse.caxi",
+            "certificate_hash": "2354daa19382ea361780b63effac72bc6076610c"
+          }
+        },
+        {
+          "client_id": "11610692722-5u11t4f0v3pobsr9bl2hh9glkq4bnhlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mickeymouse.caxi",
+            "certificate_hash": "38fc3d7cb06588b84963a8363340cf2dc5969a33"
+          }
+        },
+        {
+          "client_id": "11610692722-ba5kfnscctc8e595n2op23nmbrp20fb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mickeymouse.caxi",
+            "certificate_hash": "b0bedb92d42cc1214216d279174eb506f27b07a5"
+          }
+        },
+        {
+          "client_id": "11610692722-0f834se2oa19a6n77vdgkh0evvug5tgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mickeymouse.caxi",
+            "certificate_hash": "c63e5b44a314d072cc4e3974ef6dcd98b1ff764f"
+          }
+        },
+        {
+          "client_id": "11610692722-8m9m8tucqs5ppi249j706sno35lvjgmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnfsyIClZGRfYuCXltnFWMbFLVUTPp3SE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11610692722-8m9m8tucqs5ppi249j706sno35lvjgmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

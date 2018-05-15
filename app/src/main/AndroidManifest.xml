@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mickeymouse.caxi">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/caxi_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/caxi_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false" />
+        <activity
+            android:name=".activity.SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginScreen"
+            android:label="@string/login"
+            android:theme="@style/LoginScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.SingupScreen"
+            android:label="@string/singup"
+            android:theme="@style/LoginScreen"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.BookRide"
+            android:label="Book Ride"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ViewRide"
+            android:label="@string/title_activity_view_ride"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.ShareRide"
+            android:label="Search Ride"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.ShareRideListView"
+            android:label="@string/bookdata"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.ShareRequest"
+            android:label="@string/sharerequest"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.Help"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.Rateus"
+            android:label="@string/rateus"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.Aboutus"
+            android:label="@string/aboutus"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.RIdeHistory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- Firebase Notifications -->
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity
+            android:name=".activity.PendingRequest"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.AcceptRequest"
+            android:label="@string/acceptrequest"
+            android:theme="@style/LoginScreen" />
+        <activity
+            android:name=".activity.ForgotPwd"
+            android:theme="@style/LoginScreen"
+            android:label="@string/forgot" />
+    </application>
+
+</manifest>

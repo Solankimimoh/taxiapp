@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimaryDark">@color/colorSplashPrimaryDark</item>
+
+    </style>
+
+    <!--<style name="Widget.PlacesAutoCompleteTextView.Styled"-->
+        <!--parent="PACV.Widget.PlacesAutoCompleteTextView">-->
+        <!--<item name="android:background">@drawable/my_edit_text_background</item>-->
+        <!--<item name="android:textAppearance">@style/MyTextAppearance</item>-->
+    <!--</style>-->
+
+
+    <style name="LoginScreen" parent="Theme.AppCompat.Light">
+
+
+        <item name="colorPrimary">@color/colorSplashPrimaryDark</item>
+        <item name="android:textColorPrimaryInverse">@color/text_moto_color</item>
+        <item name="android:textColorPrimary">@color/AppBarText</item>
+        <item name="android:textColorSecondaryInverse">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:textColorSecondary">@color/AppBarText</item>
+        <item name="colorAccent">@color/colorSplashPrimaryDark2</item>
+
+    </style>
+
+
+    <style name="HomeScreen" parent="Theme.AppCompat.NoActionBar">
+
+
+        <item name="android:colorForeground">@color/text_moto_color</item>
+        <item name="android:textColorPrimary">@color/home_screen_bg</item>
+        <item name="colorPrimaryDark">@color/colorSplashPrimaryDark2</item>
+        <item name="colorAccent">@color/colorSplashPrimaryDark2</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorPrimary">@color/colorSplashPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorSplashPrimaryDark2</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
